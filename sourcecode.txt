@@ -1,0 +1,26 @@
+import java.util.*; 
+
+public class VectorDemo { 
+    public static void main(String args[]) 
+    { 
+    
+        // Creating an empty Vector 
+        Vector programLangs = new Vector(); 
+    
+        // Use add() method to add elements in the vector 
+        programLangs.add("C"); 
+        programLangs.add("C++"); 
+        programLangs.add("Java"); 
+        programLangs.add("Python"); 
+        programLangs.add("Go"); 
+    
+        // Output the present vector 
+        System.out.println("The vector is: " + programLangs); 
+    
+        // Clearing the Vector using clear() method 
+        programLangs.clear(); 
+    
+        // Displaying the final vector after clearing; 
+        System.out.println("The final Vector: " + programLangs); 
+    } 
+}  
